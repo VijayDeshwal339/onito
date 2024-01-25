@@ -20,13 +20,11 @@ const DataTable = () => {
     console.log("Row Clicked:", rowData);
   };
 
-  const handleBackButtonClick = () => {
-    navigate('/');
-  };
+ 
 
   return (
     <div>
-      <button onClick={handleBackButtonClick}>Back to Step 1</button>
+     
       {submittedUsers ? (
         <MUIDataTable
           title="Submitted Users"
